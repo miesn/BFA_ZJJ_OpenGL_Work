@@ -86,7 +86,7 @@ void keyEvent(unsigned char key, int x, int y) {
 
 void specKeyEvent(int key, int x, int y) {
 	if (key == GLUT_KEY_LEFT) {
-		if (speed >= 1) {
+		if (speed > 1) {
 			speed--;
 		}
 	}
